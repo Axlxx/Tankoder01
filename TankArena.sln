@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankArena", "TankArena\TankArena.csproj", "{DDD68E9F-C735-41A6-9C89-2E02478566CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDD68E9F-C735-41A6-9C89-2E02478566CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD68E9F-C735-41A6-9C89-2E02478566CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD68E9F-C735-41A6-9C89-2E02478566CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD68E9F-C735-41A6-9C89-2E02478566CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A425A97-C99B-42F9-9C89-92BC63891901}
+	EndGlobalSection
+EndGlobal

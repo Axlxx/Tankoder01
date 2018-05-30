@@ -1,0 +1,45 @@
+﻿<Window x:Class="meniuprincipal.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:meniuprincipal"
+        mc:Ignorable="d"
+        Title="MeniuPrincipal" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+
+            <ImageBrush ImageSource="img/background.png"/>
+
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+        </Grid.RowDefinitions>
+        <TextBox Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Left" Height="53" Margin="0.4,0.2,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Tankoders" VerticalAlignment="Top" Width="302" FontSize="48" Grid.RowSpan="2" FontFamily="Monotype Corsiva" FontWeight="Bold" TextAlignment="Center" IsEnabled="False"/>
+        <Button Click="butt1_Click" x:Name="butt1" Grid.Column="1" HorizontalAlignment="Left" Margin="56.4,0.6,0,0" Grid.Row="3" VerticalAlignment="Top" Width="189" Height="36" FontSize="24" FontFamily="Monotype Corsiva" Grid.ColumnSpan="2" Content="Find a game"/>
+        <Button IsEnabled="False" x:Name="butt2" Grid.Column="1" HorizontalAlignment="Left" Margin="56.4,0.2,0,0" Grid.Row="5" VerticalAlignment="Top" Width="189" Height="37" FontSize="24" FontFamily="Monotype Corsiva" Grid.ColumnSpan="2" Content="Custom game" Grid.RowSpan="2"/>
+        <Button x:Name="butt4" Content="🔉" Grid.Column="4" HorizontalAlignment="Left" Margin="170,19.4,0,0" Grid.Row="9" VerticalAlignment="Top" Width="38" Height="41" Grid.RowSpan="3" Grid.ColumnSpan="2" FontSize="14" Click="Button_Click"/>
+        <Button x:Name="butt2_Copy" Grid.Column="1" HorizontalAlignment="Left" Margin="56.4,0.8,0,0" Grid.Row="7" VerticalAlignment="Top" Width="189" Height="36" FontSize="24" FontFamily="Monotype Corsiva" Grid.ColumnSpan="2" Content="Generate a script"/>
+        <Button x:Name="butt5" Content="♪" Grid.Column="4" HorizontalAlignment="Left" Margin="122,19.4,0,0" Grid.Row="9" VerticalAlignment="Top" Width="38" Height="41" Grid.RowSpan="3" FontSize="14" Click="butt5_Click" RenderTransformOrigin="-0.821,0.459"/>
+    </Grid>
+</Window>
